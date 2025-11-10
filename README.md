@@ -16,7 +16,7 @@ Quote Generation, Dynamically creates and updates quote and category elements on
 Data Persistence Uses Local Storag to save all quotes, ensuring data is available even after the browser is closed. 
 User Input A form allows users to add new quotes and categories, which are immediately reflected and saved. 
 Category FilteringA dynamic `<select>` dropdown populated from unique quote categories is used to filter displayed content. 
-Data Management Functionality to **Import** quotes from a JSON file and **Export** the current quote array to a downloadable JSON file. 
+Data Management Functionality to Import quotes from a JSON file and Export the current quote array to a downloadable JSON file. 
 Server Sync (Task 3)  [If you completed Task 3, modify this bullet point, Includes logic to simulate periodic data synchronization with a mock server and implement a basic conflict resolution strategy. |
 
  Technologies Used
@@ -28,10 +28,10 @@ Vanilla JavaScript Core logic for all DOM manipulation, events, web storage, and
 Local Storage To permanently persist the main quotes array. 
 Session Storage To temporarily store session-specific data (e.g., the last viewed quote). 
 
-How to Run (Setup)
+How to Run Setup
 1. Clone the repository:
     bash
-    git clone [https://github.com/YOUR_USERNAME/alx_fe_javascript.git](https://github.com/YOUR_USERNAME/alx_fe_javascript.git)
+    git clone [https://github.com/lulsimon/alx_fe_javascript.git](https://github.com/lulsimon/alx_fe_javascript.git)
    
 2.  Navigate to the project directory:
     bash
